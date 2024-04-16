@@ -1,0 +1,20 @@
+.grid-container{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 20px;
+    justify-content: center;
+    grid-template-areas: 
+        "high mini1 mini2"
+        "high mini3 mini4"
+        "mini5 long long";
+}
+
+.high {
+    grid-area: high;
+}
+
+.long {
+    grid-area: long;
+}
