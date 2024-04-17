@@ -1,5 +1,4 @@
 .grid-container{
-    background-color: aqua;
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 200px 200px 200px;
@@ -8,13 +7,36 @@
     grid-template-areas: 
         "high mini1 mini2"
         "high mini3 mini4"
-        "mini5 long long";
+        "mini5 long long";  
+    
 }
 
 .high {
     grid-area: high;
+    background-color: darkcyan;
 }
 
 .long {
     grid-area: long;
+    background-color: darkcyan;
+}
+
+.mini1 {
+    background-color: darkcyan;
+}
+
+.mini2 {
+    background-color: darkcyan;
+}
+
+.mini3 {
+    background-color: darkcyan;
+}
+
+.mini4 {
+    background-color: darkcyan;
+}
+
+.mini5 {
+    background-color: darkcyan;
 }
